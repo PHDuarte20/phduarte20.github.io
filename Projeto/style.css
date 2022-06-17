@@ -1,0 +1,158 @@
+* {
+    font-family: "Ubuntu", sans;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    margin: 0px;
+    position: relative;
+    background-image: url("/Imagens/backlit_computer_keyboard.jpg");
+    background-color: darkblue;
+    height: 350px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logoAlura {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 20px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 2px solid #2d2d85;
+    box-sizing: border-box;
+  }
+
+.textoParaCodificacao {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.informacao {
+    position: absolute;
+    padding-left: 40px;
+    background-image: url("/Imagens/icons8-high-importance-30.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 5px;
+    left: 150px;
+    top: 450px;
+    font-size: 15px;
+    color: white;
+}
+
+.botoesCriptografia {
+    position: absolute;
+    flex-direction: row;
+    left: 150px;
+    top: 520px;
+}
+
+.botaoEncriptar {
+    padding: 5px 5px;
+    background-color: #04042b;
+    color: white;  
+    border-radius: 20px;
+    border: 2px solid white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.botaoEncriptar:hover {
+    background-color: white;
+    color: #04042b;
+}
+
+.botaoDesencriptar {
+    margin-left: 24px;
+    padding: 5px 5px;
+    background-color: #04042b;
+    color: white; 
+    border-radius: 20px;
+    border: 2px solid white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.botaoDesencriptar:hover {
+    background-color: white;
+    color: #04042b;
+}
+
+.textoCriptografado {
+    display: block;
+    position: absolute;
+    left: 1020px;
+    top: 25px;
+    background-image: url("/Imagens/meninoLupa.png");
+    background-repeat: no-repeat;
+    background-size: 325px;
+    z-index: -1;
+}
+
+.textoIntrodutorio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    position: absolute;
+    width: 300px;
+    left: 1029px;
+    top: 330px;
+}
+
+.textoIntrodutorio, span {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: center;
+    color: #5e5a5a;
+    
+}
+
+.textoIntrodutorio, p {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #3939c7;
+}
+
+.botaoCopia {
+    padding: 5px 5px;
+    margin-left: 500px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border-color: black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.botaoCopia:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+
+
+
+

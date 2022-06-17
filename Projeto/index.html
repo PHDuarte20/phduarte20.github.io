@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador de Texto</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <img class="logoAlura" src="/Imagens/aluraLogoColorido.png" alt="Logo da Alura com apenas a inicial A">
+            </header>
+
+            <section class="main">
+                <textarea class="textoParaCodificacao" cols="40" rows="6" placeholder="Digite aqui sua mensagem!"></textarea>
+                <div>
+                    <h6 class="informacao">Letras minúsculas e sem acentuação!</h6>
+                </div>
+    
+                <div class="botoesCriptografia">
+                    <button class="botaoEncriptar" onclick="btnEncriptar()">
+                        Criptografar
+                    </button>
+                    <button class="botaoDesencriptar" onclick="btnDecriptar()">
+                        Descriptografar
+                    </button>
+                    <button class="botaoCopia" onclick="btnCopiar()">
+                        Copiar
+                    </button>
+                </div>
+            </section>
+            <section>
+                <textarea class="textoCriptografado" cols="18" rows="12"></textarea>
+                <div class="textoIntrodutorio">
+                    <span>Nenhuma mensagem encontrada</span>
+                    <p>Bem vindo ao Encriptador de Textos! Envie mensagens secretas com seus amigos e divirta-se.</p>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
